@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>gallery</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <script src="https://kit.fontawesome.com/a43ffbd544.js" crossorigin="anonymous"></script>
+
+
+	<style type="text/css">
+		body{
+			margin: 0px;
+			padding: 0;
+     font-family: Constantia;
+
+		}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  height: 625px;
+  width: 250px;
+  display: block;
+  background: #151525;
+  overflow: hidden;
+  transition-duration: 0.5s;
+}
+.a{
+  text-decoration: none;
+  width: 188px;
+  color: #eee;
+  height: 40px;
+  display: inline-block;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 25px;
+  transition-duration: 0.4s;
+  border-radius: 16px;
+
+
+}
+.a:hover{
+  background: #e2e9f7;
+  color: #151525;
+}
+.a:active{
+  transform: scale(0.7);
+}
+i{
+  width: 40px;
+  margin-right: 6px;
+  padding: 10px;
+}
+.head{
+  height: 48px;
+  width: 200px;
+  display: flex;
+  align-content: center;
+  font-size: 20px;
+  color: black;
+  background: whitesmoke;
+}
+.logo{
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+  margin-left: 12px;
+  display: none;
+}
+.bars{
+  display: inline-block;
+  margin: 0;
+  font-size: 22px;
+  padding: 14px;
+  width: 48px;
+  height: 48px;
+}
+.times{
+  position: relative;
+  left: 24px;
+  height: 36px;
+}
+.va{
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.gallery{
+    position: absolute;
+  width: 85.5%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 14.5%;
+  background: skyblue;
+  background:url(photos/backgroud.jpg);
+background-size: cover;
+}
+.img{
+  height: 30px;
+}
+.card{
+  margin: 10px;
+}
+img{
+  height: 150px;
+  width: 100%;
+}
+.card-body{
+  height: 148px;
+}
+.card-group1{
+  padding-left: 350px;
+  padding-right: 350px;
+}
+.aa{
+  background:grey;
+  padding: 6px 10px;
+  text-decoration: none;
+  font-weight: bolder;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+}
+.aa:hover{
+  color: black;
+}
+
+
+
+	</style>
+</head>
+<body>
+  <nav class="nav">
+  <div class="head">
+    <div class="logo"></div>
+    <img class="img" src="photos/c.png">
+    <div class="va">Photography</div>
+  </div>
+<a class="a" href="index.html"><i class="bi bi-menu-button-wide-fill"></i></i>Photography</a>
+<a class="a" href="home.html"><i class="bi bi-house-fill"></i>Home</a>
+<a class="a" href="gallery.html"><i class="bi bi-image-fill"></i>Gallery</a>
+<a class="a" href="about.html"><i class="bi bi-person-lines-fill"></i>About US</a>
+<a class="a" href="contact.html"><i class="bi bi-telephone-inbound"></i>Contact Me</a>
+</nav>
+<div class="gallery">
+  <div class="card-group">
+  <div class="card">
+    <img src="photos/wh1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Wedding</h5>
+      <p class="card-text">"Loving you never was an option. It was a necessity." — Truth Devour, Unrequited
+       <p><a class="aa" href="wedding.html">See More...</a></p>
+</p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="photos/th.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Travel</h5>
+      <p class="card-text">Life is a journey, not a destination” – Ralph Waldo Emerson.
+</p>
+       <p><a class="aa" href="travel.html">See More...</a></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="photos/fh1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Fashion</h5>
+      <p class="card-text">"I don't design clothes. I design dreams." —Ralph Lauren
+
+</p>
+       <p><a class="aa" href="fashion.html">See More...</a></p>
+    </div>
+  </div>
+</div>
+<div class="card-group1">
+  <div class="card">
+    <img src="photos/uh.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Under water</h5>
+      <p class="card-text">“Taking an image, freezing a moment, reveals how rich reality truly is.”— Anonymous
+</p>
+       <p><a class="aa" href="water.html">See More...</a></p>
+    </div>
+  </div>
+</div>
+  
+</div>
+
+
+        
+
+</body>
+</html>
